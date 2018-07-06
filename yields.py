@@ -4,7 +4,7 @@ Created on Fri Jul  6 13:50:46 2018
 
 @author: peich
 """
-
+#new comment
 import random as rd
 from collections import Counter
 
@@ -13,10 +13,10 @@ con el método __next__() en Python2. Define 'a=ngen(n)' y luego a.__next__()
 las veces que desees"""
 
 def ngen(n):
-    a = 0
-    while(a < n):
-        yield a
-        a += 1
+    num = 0
+    while(num < n):
+        yield num
+        num += 1
 
 
 def quadgen(n):
